@@ -126,11 +126,3 @@ curl -H "x-user-email: ana@email.com" "http://localhost:3001/movies/paginated?li
 curl -X POST -H "x-user-email: ana@email.com" -H "Content-Type: application/json" \
      -d '{"title":"","posterURL":"x"}' http://localhost:3001/movies                      # título vazio e URL inválida
 ```
-
-## Testes manuais sugeridos
-
-1. Cadastrar, editar e remover um filme em **Minha lista** e conferir no MySQL: `SELECT * FROM movies;`.
-2. Cadastrar mais de 12 filmes, navegar com Anterior/Próxima e buscar por parte do título.
-3. Abrir o DevTools → Network e conferir `GET /movies/paginated?page=…&limit=12&search=…` e os metadados.
-4. Reiniciar a API e confirmar que os filmes continuam na lista.
-5. Derrubar a API e conferir a mensagem de erro com "Tentar novamente".
