@@ -16,7 +16,7 @@ export function Home() {
       <section className="hero">
         <img
           className="hero-image"
-          src="https://image.tmdb.org/t/p/original/8bcoRX3hQRHufLPSDREdvr3YMXx.jpg"
+          src="https://image.tmdb.org/t/p/original/jK65srQczOKTpW62wPxwwKztGgE.jpg"
           alt=""
         />
         <div className="hero-shade" />
